@@ -93,8 +93,8 @@ objects:
     source:
       contextDir: jenkins-master
       git:
-        uri: https://github.com/OpenShiftDemos/openshift-cd-demo.git
-        ref: openshift-3.2
+        uri: https://github.com/tronbot/data-concierge-openshift-cicd.git
+        ref: ose-3.2
       secrets: []
       type: Git
     strategy:
@@ -192,8 +192,8 @@ objects:
     source:
       contextDir: jenkins-slave
       git:
-        uri: https://github.com/OpenShiftDemos/openshift-cd-demo.git
-        ref: openshift-3.2
+        uri: https://github.com/tronbot/data-concierge-openshift-cicd.git
+        ref: ose-3.2
       type: Git
     strategy:
       dockerStrategy:
